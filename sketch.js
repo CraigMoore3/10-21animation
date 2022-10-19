@@ -1,7 +1,13 @@
+let canvasWidth = 1600
+let canvasHeight = 900
+frameRate(30)
+
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(canvasWidth, canvasHeight);
 }
 
 function draw() {
-  background(125);
+  background(200);
+
+
 }
