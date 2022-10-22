@@ -1,17 +1,20 @@
+// Variables
+
 let canvasWidth = 1400;
 let canvasHeight = 900;
-let r = color(250, 25, 90);
+
 
 let xspeed = 100 * frameCount;
 let yspeed = 200 * frameCount;
 
 frameRate(30)
 
-
+// Setup Function
 function setup() {
   createCanvas(canvasWidth, canvasHeight);
 }
 
+// Draw Function
 function draw() {
   noStroke();
   background(0, 1);
